@@ -49,8 +49,11 @@ header nav ul {
     margin-right: 20px;
 }
 header p {
-    color: var(--cor5);
+    color: var(--cor1);
     font-size: 20px;
+}
+header a {
+    text-decoration: none;
 }
 header nav a.icone {
     padding: 10px;
@@ -63,10 +66,78 @@ header nav a.icone:hover {
 header nav a#botao-home {
     padding: 10px;
     text-decoration: none;
-    color: var(--cor5);
+    color: var(--cor1);
     font-weight: bold;    
 }
 header nav a#botao-home:hover {
     color: var(--cor0);
     border: 2px solid var(--cor0);   
+}
+
+main {
+    min-height: 300px;
+    max-width: 1200px;
+    margin: auto;
+}
+section {
+    padding: 80px 0;
+}
+section div.div-direita {
+    
+    
+    text-align: right;
+}
+section h1 {
+    font-size: 40px;
+    color: var(--cor5);
+}
+section h2 {
+    padding: 10px;
+    color: var(--cor5);
+    font-weight: normal;
+}
+section img {
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+}
+section img:hover {
+    transform: scale(1.5);
+}
+
+
+section#section-contatos {
+    background-color: var(--cor4);
+    margin-top: 150px;   
+}
+section#section-contatos h2 {
+    font-size: 45px;
+    color: var(--cor1);
+    text-align: center;
+    padding: 30px;
+}
+section#section-contatos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+section#section-contatos div.div-contatos {
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+section#section-contatos div a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+section#section-contatos div h3 {
+    padding: 10px;
+    color: var(--cor1);
+    font-weight: normal;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    padding: 30px 0;
+    text-align: center;
 }

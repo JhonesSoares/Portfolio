@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor0: seagreen;
+    --cor0: rgb(31, 97, 60);
     --cor1: #e6dddd;
     --cor2: #8c8c8c;
     --cor3: #666666;
@@ -216,6 +216,29 @@ section#section-extracurriculares div {
 section#section-extracurriculares nav li {
     padding: 10px;
 }
+
+section#section-certificacoes {
+    text-align: center;
+    margin: 50px 0;    
+}
+section#section-certificacoes button {
+    color: var(--cor5);
+    font-size: 20px;
+    margin: 20px 10px;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid var(--cor5);
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+section#section-certificacoes button:hover {
+    color: var(--cor0);
+    cursor: pointer;
+    transform: scale(1.1); 
+    border: 2px solid var(--cor0);   
+}
+
 
 
 

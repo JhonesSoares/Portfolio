@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --cor0: seagreen;
+    --cor1: #e6dddd;
+    --cor2: #8c8c8c;
+    --cor3: #666666;
+    --cor4: #515151;
+    --cor5: #2e2e2e;
+}
+
+body {
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(56,56,56,1) 100%, rgba(56, 56, 56, 0.849) 100%);
+}
+body img#background-inicio {
+    position: absolute;
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+}
+body img#background-final {
+    position: absolute;
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    bottom: 0;
+    transform: rotate(-180deg);
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 10px;  
+}
+header nav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+header p {
+    color: var(--cor5);
+    font-size: 20px;
+}
+header nav a.icone {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor5);
+}
+header nav a.icone:hover {
+    opacity: 0.5;
+}
+header nav a#botao-home {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;    
+}
+header nav a#botao-home:hover {
+    color: var(--cor0);
+    border: 2px solid var(--cor0);   
+}

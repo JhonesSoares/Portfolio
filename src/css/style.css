@@ -15,7 +15,7 @@
 }
 
 body {
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(56,56,56,1) 100%, rgba(56,56,56,1) 100%);   
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(122, 122, 122) 100%, rgb(109, 109, 109) 100%);   
 }
 body img#background-inicio {
     position: absolute;
